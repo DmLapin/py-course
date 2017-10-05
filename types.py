@@ -24,3 +24,26 @@ print(complex_num.imag)
 answer = None
 print(answer)
 print(bool(answer))
+
+# string
+string = "hello"
+for letter in string:
+    print("Буква", letter)
+
+tpl = "Hello, %s"
+print(tpl % "username")
+
+multiline = """hello
+aaa"""
+print(multiline)
+
+byte_str = b"Hello"
+print(byte_str)
+
+unicode_str = "Привет"
+enc_str = unicode_str.encode(encoding="utf-8")
+print(enc_str)
+print(enc_str.decode())
+print(unicode_str[0:4])
+print(unicode_str[::2])
+print(unicode_str[::-1])
